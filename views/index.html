@@ -1,134 +1,62 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="zh-CN">
 <head>
-    <title>one2one</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>玮玮道来</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: azure;
+            font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+            color: #333;
+            background: #E9EAED;
+            line-height: 1.5;
+            overflow-x: hidden;
         }
-        .content {
-            margin-top:40px;
-        }
-        .navbar-default {
-            background-color: #33CC00;
 
+        .navbar-header a {
+            color: #fff !important;
+            font-size: 22px;
         }
-        .navbar-brand {
-            color : white;
+
+        .navbar {
+            padding: 5px 0;
         }
-        #navbar a {
-            color : white;
-        }
-        .footer {
-            text-align: center;
-            width: 100%;
-            height: 60px;
-            line-height: 60px;
-            background-color: #f5f5f5;
+
+        .navbar-list .navbar-nav {
+            margin-left: 100px;
         }
     </style>
+</head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-       <div class="container">
-         <div class="navbar-header">
-           <a class="navbar-brand" href="#">one2one</a>
-         </div>
-         <div id="navbar" class="collapse navbar-collapse">
-           <ul class="nav navbar-nav">
-             <li><a href="#">首页</a></li>
-             <li><a href="#about">关于本站</a></li>
-             <li><a href="#contact">一对一教学</a></li>
-           </ul>
-         </div>
-       </div>
-     </nav>
-
-     <div class="container content">
-        <div class="row">
-            <div class="col-md-9 context-left">
-                <div class="page-header">
-                    <h4>热门教程</h4>
-                </div>
-                <ul class="media-list">
-                    <li class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="/static/img/beego.png" alt="beego">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">SQL教程</h4>
-                            经典的sql教程
-                        </div>
-                    </li>
-                    <li class="media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <img class="media-object" src="/static/img/jwt.jpg" alt="beego">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">JWT教程</h4>
-                            从入门到放弃JWT
-                        </div>
-                    </li>
-                    <li class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="/static/img/beego.png" alt="beego">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">SQL教程</h4>
-                            经典的sql教程
-                        </div>
-                    </li>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">玮玮道来</a>
+            </div>
+            <div class="navbar-list">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">网站首页</a></li>
+                    <li><a href="#about">个人博客</a></li>
+                    <li><a href="#contact">关于本站</a></li>
                 </ul>
-                <div>
-                    <div class="page-header">
-                        <h4>热门教程</h4>
-                    </div>
-                    <ul class="media-list">
-                        <li class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="/static/img/beego.png" alt="beego">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SQL教程</h4>
-                                经典的sql教程
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="/static/img/beego.png" alt="beego">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SQL教程</h4>
-                                经典的sql教程
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3 context-right">
-
             </div>
         </div>
-     </div>
+    </nav>
 
-    <footer>
-        <div class="footer">
-            <div class="container">
-                copyright by one2one.com from 2019 to 2022
+    <article>
+        <div class="container">
+            <div class="col-md-8">
+                <div class="col-md-8">.col-md-8</div>
+                <div class="col-md-4">.col-md-4</div>
             </div>
+
+            <div class="col-md-4">.col-md-4</div>
         </div>
-    </footer>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
