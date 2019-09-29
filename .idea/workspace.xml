@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72118c3-0f67-4957-9285-b94c8d248605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/start.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/h1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/h2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jssor.slider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/b02.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="219" column="69" selection-start-line="219" selection-start-column="69" selection-end-line="219" selection-end-column="69" />
+            <state relative-caret-position="217">
+              <caret line="228" column="30" lean-forward="true" selection-start-line="225" selection-start-column="23" selection-end-line="228" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -232,18 +222,17 @@
       <workItem from="1568014696529" duration="6190000" />
       <workItem from="1568076149115" duration="117000" />
       <workItem from="1569718810887" duration="1903000" />
-      <workItem from="1569737014438" duration="10259000" />
+      <workItem from="1569737014438" duration="11581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18469000" />
+    <option name="totallyTimeSpent" value="19791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.60819674" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.070491806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.070491806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="219" column="69" selection-start-line="219" selection-start-column="69" selection-end-line="219" selection-end-column="69" />
+        <state relative-caret-position="217">
+          <caret line="228" column="30" lean-forward="true" selection-start-line="225" selection-start-column="23" selection-end-line="228" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
