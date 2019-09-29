@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>玮玮道来</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.staticfile.org/amazeui/1.0.0-rc1/css/amazeui.basic.min.css" rel="stylesheet">
+    <link href="http://cdn.staticfile.org/amazeui/1.0.0-rc1/css/amazeui.min.css" rel="stylesheet">
+    <link href="http://cdn.staticfile.org/amazeui/1.0.0-rc1/css/amazeui.widgets.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/zepto/1.1.3/zepto.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.basic.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.widgets.helper.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.widgets.min.js"></script>
+
     <style>
         body {
             font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
@@ -15,48 +23,217 @@
             overflow-x: hidden;
         }
 
-        .navbar-header a {
-            color: #fff !important;
-            font-size: 22px;
+        ul li {
+            list-style-type: none;
         }
 
-        .navbar {
-            padding: 5px 0;
+        article {
+            width: 96%;
+            margin: 20px auto;
+            overflow: hidden;
         }
 
-        .navbar-list .navbar-nav {
-            margin-left: 100px;
+        .lbox {
+            width: 75%;
+            float: left;
+            overflow: hidden;
+        }
+
+        .banbox {
+            width: 68.5%;
+            overflow: hidden;
+            float: left;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+
+        .headline {
+            width: 30%;
+            float: right;
+            overflow: hidden;
+        }
+
+        .headline ul {
+            height: 260px;
+        }
+
+        .headline ul li {
+            width: 100%;
+            background: #000;
+            overflow: hidden;
+            height: 125px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .headline ul li a {
+            display: block;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .headline ul li img {
+            width: 100%;
+            height: 100%;
+            -moz-transition: all .5s ease;
+            -webkit-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            transition: all .5s ease;
+            transition: all 0.5s;
+            opacity: .7;
+        }
+
+        .headline ul li span {
+            bottom: 0;
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0;
+            color: #FFF;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 5px;
+            padding: 0 40px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-height: 24px;
+            height: 48px;
+        }
+
+        img {
+            border: 0;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">玮玮道来</a>
-            </div>
-            <div class="navbar-list">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">网站首页</a></li>
-                    <li><a href="#about">个人博客</a></li>
-                    <li><a href="#contact">关于本站</a></li>
+    <header class="am-topbar am-topbar-fixed-top">
+        <div class="am-container">
+            <h1 class="am-topbar-brand">
+                <a href="#">玮玮道来</a>
+            </h1>
+            <div class="am-collapse am-topbar-collapse" id="collapse-head">
+                <ul class="am-nav am-nav-pills am-topbar-nav">
+                    <li class="am-active"><a href="#">网站首页</a></li>
+                    <li><a href="#">个人博客</a></li>
+                    <li><a href="#">关于本站</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </header>
 
     <article>
-        <div class="container">
-            <div class="col-md-8">
-                <div class="col-md-8">.col-md-8</div>
-                <div class="col-md-4">.col-md-4</div>
+        <div class="lbox">
+            <div>
+                <div class="banbox">
+                    <div class="am-slider am-slider-default">
+                        <ul class="am-slides">
+                            <li><img src="/static/1.jpg" style="height:260px"/></li>
+                            <li><img src="/static/2.jpg" style="height:260px" /></li>
+                            <li><img src="/static/3.jpg" style="height:260px" /></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="headline">
+                    <ul>
+                        <li>
+                            <a href="/notice/27.html" title="为什么说10月24日是程序员的节日？">
+                                <img src="/static/img/h1.jpg" alt="为什么说10月24日是程序员的节日？"><span>为什么说10月24日是程序员的节日？</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/notice/26.html" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。">
+                                <img src="/static/img/h2.jpg" alt="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+            <div class="am-panel">
+                <div class="am-panel-hd">
+                    <h1 class="am-panel-title">
+                        <span class="am-icon-smile-o"> &nbsp&nbsp特别推荐</span>
+                    </h1>
+                </div>
+
+                <div class="am-panel-bd">
+                    <div class="am-g">
+                        <div class="col-sm-4">
+                            <div class="am-thumbnail">
+                                <img src="/static/test.jpg" alt=""/>
+                                <div class="am-thumbnail-caption">
+                                    <h3>图片标题</h3>
+                                    <p>...</p>
+                                    <p>
+                                        <button class="am-btn am-btn-success am-round">
+                                            <i class="am-icon-spinner am-icon-spin"></i>
+                                            文章阅读
+                                        </button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <a href="#" class="am-thumbnail">
+                                <img src="/static/test.jpg" alt=""/>
+                                <div class="am-thumbnail-caption">
+                                    <h3>图片标题</h3>
+                                    <p>...</p>
+                                    <p>
+                                        <button class="am-btn am-btn-success am-round">
+                                            <i class="am-icon-spinner am-icon-spin"></i>
+                                            文章阅读
+                                        </button>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <figure class="am-thumbnail">
+                                <img src="/static/test.jpg" alt=""/>
+                                <div class="am-thumbnail-caption">
+                                    <h3>图片标题</h3>
+                                    <p>...</p>
+                                    <p>
+                                        <button class="am-btn am-btn-success am-round">
+                                            <i class="am-icon-spinner am-icon-spin"></i>
+                                            文章阅读
+                                        </button>
+                                    </p>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-4">.col-md-4</div>
+            <div class="am-panel">
+                <div class="am-panel-hd">
+                    <h1 class="am-panel-title">
+                        <span class="am-icon-smile-o"> &nbsp&nbsp最新博文</span>
+                    </h1>
+                </div>
+
+                <div class="am-panel-bd"></div>
+            </div>
+        </div>
+
+        <div class="rbox">
+
         </div>
     </article>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script>
+        Zepto(function($) {
+            $('.am-slider').flexslider();
+        });
+    </script>
 </body>
 </html>
