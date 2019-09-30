@@ -1,0 +1,99 @@
+body {
+    font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #E9EAED;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color : black;
+}
+
+article {
+    width: 96%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.lbox {
+    width: 75%;
+    float: left;
+    overflow: hidden;
+}
+
+.banbox {
+    width: 68.5%;
+    overflow: hidden;
+    float: left;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.headline {
+    width: 30%;
+    float: right;
+    overflow: hidden;
+}
+
+.headline ul {
+    height: 260px;
+}
+
+.headline ul li {
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+    height: 125px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.headline ul li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.headline ul li img {
+    width: 100%;
+    height: 100%;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    transition: all 0.5s;
+    opacity: .7;
+}
+
+.headline ul li span {
+    bottom: 0;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 0 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-height: 24px;
+    height: 48px;
+}
+
+.rbox {
+    width: 23.5%;
+    float: right;
+    overflow: hidden;
+}

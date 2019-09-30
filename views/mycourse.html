@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>玮玮道来</title>
+    <link href="http://cdn.staticfile.org/amazeui/1.0.0-rc1/css/amazeui.basic.min.css" rel="stylesheet">
+    <link href="http://cdn.staticfile.org/amazeui/1.0.0-rc1/css/amazeui.min.css" rel="stylesheet">
+    <link href="http://cdn.staticfile.org/amazeui/1.0.0-rc1/css/amazeui.widgets.min.css" rel="stylesheet">
+    <link href="/static/css/base.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/zepto/1.1.3/zepto.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.basic.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.widgets.helper.min.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/1.0.0-rc1/js/amazeui.widgets.min.js"></script>
+    <style>
+        .bg-white {
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+    {{template "header"}}
+    <article class="am-article">
+        <div class="am-g">
+            <div class="col-sm-9">
+
+                <div class="am-panel">
+                    <div class="am-panel-bd">
+                        <div data-am-widget="intro" class="am-intro am-cf am-intro-default">
+                            <div class="am-g am-intro-bd">
+                                <div class="am-intro-left am-col col-sm-3">
+                                    <img src="/static/img/course-1.jpg" alt="小娜" />
+                                </div>
+                                <div class="am-intro-right am-col col-sm-9">
+                                    <h1>编程教程</h1>
+                                    <p>对酒当歌，人生几何！
+                                        譬如朝露，去日苦多。
+                                        慨当以慷，忧思难忘。
+                                        何以解忧？唯有杜康。
+                                        青青子衿，悠悠我心。
+                                        但为君故，沉吟至今。
+                                        呦呦鹿鸣，食野之苹。
+                                        我有嘉宾，鼓瑟吹笙。
+                                        明明如月，何时可掇？
+                                        忧从中来，不可断绝。
+                                        越陌度阡，枉用相存。
+                                        契阔谈䜩，心念旧恩。
+                                        月明星稀，乌鹊南飞。
+                                        绕树三匝，何枝可依？
+                                        山不厌高，海不厌深。
+                                        周公吐哺，天下归心。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="am-panel">
+                    <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+                        <h2 class="am-titlebar-title">热门教程</h2>
+                        <nav class="am-titlebar-nav">
+                            <a href="#more" class="">more &raquo;</a>
+                        </nav>
+                    </div>
+                    <div class="am-panel-bd">
+                        <div data-am-widget="intro" class="am-intro am-cf am-intro-default">
+                            <div class="am-g am-intro-bd">
+                                <div class="am-intro-left am-col col-sm-3">
+                                    <img src="/static/b02.jpg"
+                                         alt="小娜" />
+                                </div>
+                                <div class="am-intro-right am-col col-sm-9">
+                                    <h2>Cortana 恐怕是用户急于更新到 WP8.1 Update 开发者预览版的原因之一</h2>
+                                    <p>Cortana 中国版特有的新图标（面团，带眼睛，可在 Cortana 设置中切换回圆圈），使用的是中文语言，也同样支持 Cortana 笔记本。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-am-widget="intro" class="am-intro am-cf am-intro-default">
+                            <div class="am-g am-intro-bd">
+                                <div class="am-intro-left am-col col-sm-3">
+                                    <img src="/static/b02.jpg"
+                                         alt="小娜" />
+                                </div>
+                                <div class="am-intro-right am-col col-sm-9">
+                                    <h2>Cortana 恐怕是用户急于更新到 WP8.1 Update 开发者预览版的原因之一</h2>
+                                    <p>Cortana 中国版特有的新图标（面团，带眼睛，可在 Cortana 设置中切换回圆圈），使用的是中文语言，也同样支持 Cortana 笔记本。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3"></div>
+        </div>
+    </article>
+    {{template "footer"}}
+
+<script>
+    Zepto(function($) {
+        $('#header-mycourse').addClass("am-active");
+    });
+</script>
+</body>
+</html>

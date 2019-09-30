@@ -8,10 +8,19 @@ import (
 
 func main(){
 	r := conf.Start()
-	r.GET("/index", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "index.html", gin.H{
-			"title": "Main website",
-		})
-	})
-	r.Run() // listen and serve on 0.0.0.0:8080
+	r.GET("/index", index)
+	r.GET("/about", about)
+	r.GET("/mycourse", mycourse)
+	r.Run(":8002")
+}
+
+func index(c *gin.Context) {
+	c.HTML(http.StatusOK, "index.html", nil)
+}
+func about(c *gin.Context) {
+	c.HTML(http.StatusOK, "about.html", nil)
+}
+
+func mycourse(c *gin.Context) {
+	c.HTML(http.StatusOK, "mycourse.html", nil)
 }
